@@ -3,7 +3,7 @@ class calculator {
     public static void main(String[] args){
         int a;
         int b; 
-        String c; 
+        int c; 
 
         Scanner sc = new Scanner(System.in);
         
@@ -19,23 +19,23 @@ class calculator {
         System.out.println("3 for *");
         System.out.println("4 for /");
 
-        c = sc.next();
+        c = sc.nextInt();
         
 
 
-        if (c == "1"){
+        if (c == 1){
             System.out.println("Your ans is " + a+b);
         }
 
-        else if(c == "2"){
+        else if(c == 2){
             System.out.println("Your ans is " + (a-b));
         }
         
-        else if(c == "3"){
+        else if(c == 3){
             System.out.println("Your ans is " + a*b);
         }
         
-        else if(c == "4"){
+        else if(c == 4){
             System.out.println("Your ans is " + a/b);
         }
         
